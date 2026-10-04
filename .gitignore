@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Production builds
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Database
+prisma/*.db
+prisma/*.db-journal
+*.sqlite
+*.sqlite3
+.embedded-pg-data/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Testing coverage
+coverage/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
